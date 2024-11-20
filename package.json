@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@types/webtorrent": "^0.110.0",
+    "nitropack": "latest"
+  },
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
+  "dependencies": {
+    "node-datachannel": "^0.21.0",
+    "webrtc-polyfill": "^1.1.10",
+    "webtorrent": "^2.5.6"
+  }
+}
